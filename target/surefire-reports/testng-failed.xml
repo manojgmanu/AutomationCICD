@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="manoj.TestComponents.Listeners"/>
+  </listeners>
+  <test thread-count="5" parallel="tests" name="ErrorValidation Test(failed)" verbose="0">
+    <classes>
+      <class name="manoj.test.ErrorValidationsTest">
+        <methods>
+          <include name="ProductErrorValidation"/>
+          <include name="LogInErrorValidation"/>
+          <include name="lunchApplication"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- manoj.test.ErrorValidationsTest -->
+    </classes>
+  </test> <!-- ErrorValidation Test(failed) -->
+  <test thread-count="5" parallel="tests" name="Submit Order Test(failed)" verbose="0">
+    <classes>
+      <class name="manoj.test.SubmitOrderTest">
+        <methods>
+          <include name="submitOrder"/>
+          <include name="OrderHistory"/>
+          <include name="lunchApplication"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- manoj.test.SubmitOrderTest -->
+    </classes>
+  </test> <!-- Submit Order Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

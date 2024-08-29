@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-27T16:15:07 IST" name="Suite" finished-at="2024-08-27T16:16:03 IST" duration-ms="55656">
+    <groups>
+      <group name="ErrorHandling">
+        <method signature="ErrorValidationsTest.LogInErrorValidation()[pri:0, instance:manoj.test.ErrorValidationsTest@5e3f861]" name="LogInErrorValidation" class="manoj.test.ErrorValidationsTest"/>
+      </group> <!-- ErrorHandling -->
+      <group name="Purchase">
+        <method signature="SubmitOrderTest.submitOrder(java.util.HashMap)[pri:0, instance:manoj.test.SubmitOrderTest@5f8e8a9d]" name="submitOrder" class="manoj.test.SubmitOrderTest"/>
+      </group> <!-- Purchase -->
+    </groups>
+    <test started-at="2024-08-27T16:15:07 IST" name="ErrorValidation Test" finished-at="2024-08-27T16:15:37 IST" duration-ms="29954">
+      <class name="manoj.test.ErrorValidationsTest">
+        <test-method is-config="true" signature="lunchApplication()[pri:0, instance:manoj.test.ErrorValidationsTest@5e3f861]" started-at="2024-08-27T16:15:07 IST" name="lunchApplication" finished-at="2024-08-27T16:15:14 IST" duration-ms="6384" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchApplication -->
+        <test-method signature="LogInErrorValidation()[pri:0, instance:manoj.test.ErrorValidationsTest@5e3f861]" started-at="2024-08-27T16:15:14 IST" name="LogInErrorValidation" finished-at="2024-08-27T16:15:15 IST" duration-ms="1234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogInErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:manoj.test.ErrorValidationsTest@5e3f861]" started-at="2024-08-27T16:15:15 IST" name="tearDown" finished-at="2024-08-27T16:15:15 IST" duration-ms="346" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="lunchApplication()[pri:0, instance:manoj.test.ErrorValidationsTest@5e3f861]" started-at="2024-08-27T16:15:15 IST" name="lunchApplication" finished-at="2024-08-27T16:15:22 IST" duration-ms="6181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchApplication -->
+        <test-method signature="ProductErrorValidation()[pri:0, instance:manoj.test.ErrorValidationsTest@5e3f861]" started-at="2024-08-27T16:15:22 IST" name="ProductErrorValidation" finished-at="2024-08-27T16:15:37 IST" duration-ms="15477" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:manoj.test.ErrorValidationsTest@5e3f861]" started-at="2024-08-27T16:15:37 IST" name="tearDown" finished-at="2024-08-27T16:15:37 IST" duration-ms="262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- manoj.test.ErrorValidationsTest -->
+    </test> <!-- ErrorValidation Test -->
+    <test started-at="2024-08-27T16:15:07 IST" name="Submit Order Test" finished-at="2024-08-27T16:16:03 IST" duration-ms="55656">
+      <class name="manoj.test.SubmitOrderTest">
+        <test-method is-config="true" signature="lunchApplication()[pri:0, instance:manoj.test.SubmitOrderTest@5f8e8a9d]" started-at="2024-08-27T16:15:08 IST" name="lunchApplication" finished-at="2024-08-27T16:15:14 IST" duration-ms="6003" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:manoj.test.SubmitOrderTest@5f8e8a9d]" started-at="2024-08-27T16:15:14 IST" name="submitOrder" data-provider="getData" finished-at="2024-08-27T16:15:33 IST" duration-ms="19136" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Manoj@18, product=ZARA COAT 3, email=manojg1413@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:manoj.test.SubmitOrderTest@5f8e8a9d]" started-at="2024-08-27T16:15:33 IST" name="tearDown" finished-at="2024-08-27T16:15:33 IST" duration-ms="346" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="lunchApplication()[pri:0, instance:manoj.test.SubmitOrderTest@5f8e8a9d]" started-at="2024-08-27T16:15:33 IST" name="lunchApplication" finished-at="2024-08-27T16:15:38 IST" duration-ms="4711" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:manoj.test.SubmitOrderTest@5f8e8a9d]" started-at="2024-08-27T16:15:38 IST" name="submitOrder" data-provider="getData" finished-at="2024-08-27T16:15:55 IST" duration-ms="17268" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Manoj@18, product=ADIDAS ORIGINAL, email=manojg2218@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:manoj.test.SubmitOrderTest@5f8e8a9d]" started-at="2024-08-27T16:15:55 IST" name="tearDown" finished-at="2024-08-27T16:15:56 IST" duration-ms="327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="lunchApplication()[pri:0, instance:manoj.test.SubmitOrderTest@5f8e8a9d]" started-at="2024-08-27T16:15:56 IST" name="lunchApplication" finished-at="2024-08-27T16:16:02 IST" duration-ms="6046" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchApplication -->
+        <test-method signature="OrderHistory()[pri:0, instance:manoj.test.SubmitOrderTest@5f8e8a9d]" started-at="2024-08-27T16:16:02 IST" name="OrderHistory" finished-at="2024-08-27T16:16:03 IST" depends-on-methods="manoj.test.SubmitOrderTest.submitOrder" duration-ms="1101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderHistory -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:manoj.test.SubmitOrderTest@5f8e8a9d]" started-at="2024-08-27T16:16:03 IST" name="tearDown" finished-at="2024-08-27T16:16:03 IST" duration-ms="279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- manoj.test.SubmitOrderTest -->
+    </test> <!-- Submit Order Test -->
+  </suite> <!-- Suite -->
+</testng-results>
